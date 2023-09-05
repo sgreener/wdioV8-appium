@@ -41,7 +41,7 @@ export const config: Options.Testrunner = {
     
     services: [
         ['appium', {
-            logpath: './logs/',
+            logpath: './logs',
         }]
     ],
 
