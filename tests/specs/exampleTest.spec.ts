@@ -1,4 +1,4 @@
-import { FirstScreen } from "../pom/firstScreen.page";
+import { FirstScreen } from "./../pom/firstScreen.page.ts";
 
 describe("example test describe", () => {
     it("example test it", async () => {
