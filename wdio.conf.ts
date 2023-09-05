@@ -21,7 +21,7 @@ export const config: Options.Testrunner = {
     capabilities: [{
        
         platformName: 'Android',
-        'appium:deviceName': 'Pixel 4 API 34', // don't think this matters
+        'appium:deviceName': 'Pixel 5 API 34', // don't think this matters
         'appium:platformVersion': '14',
         'appium:automationName': 'UiAutomator2',
         'appium:app': 'C:/app-debug.apk'
@@ -41,7 +41,7 @@ export const config: Options.Testrunner = {
     
     services: [
         ['appium', {
-            logpath: './logs',
+            logpath: './logs/',
         }]
     ],
 
